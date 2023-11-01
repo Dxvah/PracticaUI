@@ -23,7 +23,7 @@ public class brightness : MonoBehaviour
     public void ChangeScrollbar(float value)
     {
         brillo.value = value;
-        PlayerPrefs.SetFloat("brillo", brilloValue);
-        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, brilloValue);
+        PlayerPrefs.SetFloat("brillo", value);
+        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, value);
     }
 }
