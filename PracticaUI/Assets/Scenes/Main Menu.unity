@@ -2458,10 +2458,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a86b05d549cb8648b0affc082a81345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttons:
-  - {fileID: 1638364815}
-  - {fileID: 1801477952}
-  - {fileID: 288377290}
+  play: {fileID: 1638364815}
+  options: {fileID: 1801477952}
+  exit: {fileID: 288377290}
 --- !u!4 &862048703
 Transform:
   m_ObjectHideFlags: 0
@@ -3011,7 +3010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1004986337
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3731,7 +3730,7 @@ MonoBehaviour:
       - m_Target: {fileID: 324980979}
         m_TargetAssemblyTypeName: MenuOpciones, Assembly-CSharp
         m_MethodName: ToggleCambio
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

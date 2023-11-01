@@ -4,26 +4,31 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class ButtonAnimation : MonoBehaviour
 {
-    private Vector3 originalPosition;
+    public Button play;
+    public Button options;
+    public Button exit;
 
-    public Button[] buttons;
+    private Vector3 originalScale;
 
-    void Start()
+    private void Start()
     {
-        originalPosition = buttons[0].transform.position;
+        originalScale = play.transform.localScale;
     }
 
     public void OnPointerEnter(int buttonIndex)
     {
-        
-        LeanTween.scale(buttons[buttonIndex].gameObject, Vector3.one * 1.1f, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(play.gameObject, originalScale * 1.1f, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(options.gameObject, originalScale * 1.1f, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(exit.gameObject, originalScale * 1.1f, 0.1f).setEase(LeanTweenType.easeOutQuad);
     }
 
     public void OnPointerExit(int buttonIndex)
     {
-        
-        LeanTween.scale(buttons[buttonIndex].gameObject, Vector3.one, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(play.gameObject, originalScale, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(options.gameObject, originalScale, 0.1f).setEase(LeanTweenType.easeOutQuad);
+        LeanTween.scale(exit.gameObject, originalScale, 0.1f).setEase(LeanTweenType.easeOutQuad);
     }
 }

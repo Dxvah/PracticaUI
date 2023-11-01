@@ -11,12 +11,12 @@ public class MenuOpciones : MonoBehaviour
     public AudioSource clickAudio;
     public AudioClip soundClip;
     bool suenaclick = false;
-    bool check = false;
+    
     void Start()
     {
        
        suenaclick = false;
-       check = false;
+       
     }
     public void MostrarCanvasOpciones()
     {
@@ -39,15 +39,17 @@ public class MenuOpciones : MonoBehaviour
                 suenaclick = true;
         }
     }
-    public void ToggleCambio()
+    public void ToggleCambio(bool activado)
     {
-        if (check == true) 
+        if (activado == true) 
         {
             MostrarCanvasPrincipal();
+            
         }
         else
         {
             MostrarCanvasOpciones();
+            
         }
     }
 }
