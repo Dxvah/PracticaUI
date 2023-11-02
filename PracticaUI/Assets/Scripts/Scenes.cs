@@ -13,7 +13,7 @@ public class Scenes: MonoBehaviour
   void Start()
   {
         LeanTween.moveY(logo.GetComponent<RectTransform>(), 0, 1.5f).setDelay(2.5f).setEase(LeanTweenType.easeOutQuart);
-        LeanTween.moveY(texto.gameObject, 0, 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeInBack).setOnComplete(BajarAlpha);
+        LeanTween.moveY(texto.gameObject, -50, 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeInBack).setOnComplete(BajarAlpha);
         
   }
   private void BajarAlpha()
