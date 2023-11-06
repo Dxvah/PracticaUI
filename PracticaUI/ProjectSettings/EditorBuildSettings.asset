@@ -5,10 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Escena Logotipo.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: a1ef30e9418939f4b8bcd6c2255c2431
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 34f81d86f21185d4eafbb6a1d2642a51, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: f2092890d828f324e9e40bc5d207148e, type: 2}
