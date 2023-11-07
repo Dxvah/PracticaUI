@@ -54,6 +54,92 @@ MonoBehaviour:
     m_Localized: glow
     m_Metadata:
       m_Items: []
+  - m_Id: 270306902872064
+    m_Localized: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270941337489408
+    m_Localized: 'Welcome to The Ashen Knight, where knights and dragons meet! Before
+      you venture into our medieval land, here are some rules:
+
+      
+
+      Kingdom
+      Rules:
+
+      
+
+      Spend your gold wisely, the crown does not cover your
+      debts!
+
+      
+
+      Modify the game however you want, but don''t put on
+      a beginner mage''s robe if you''re going to face a Saber Cat with your axe,
+      be smart.
+
+      
+
+      Communication in the Tavern:
+
+      
+
+      Verbal
+      duels are allowed. The disputes with iron daggers forged in the Forge of Heaven,
+      too. If you are a member of The Knights, you are strictly prohibited from going
+      out to drink mead late at night, especially on full moon days.
+
+      
+
+      Do
+      not share secrets, unless you wish to receive a message from the Dark Brotherhood.
+
+      
+
+      Weapon
+      Rights and Shields:
+
+      
+
+      All adventurers can carry weapons and
+      shields, as long as they are of legal age and have not been wounded in the
+      knee by an arrow.
+
+      
+
+      Castle Jurisdiction:
+
+      
+
+      In
+      case of disputes, King Ulfric Stormcloak will decide. His word is law and is
+      backed by the Divine Seven.
+
+      
+
+      
+
+      The Ashen Knight is just
+      a medieval game. Don''t take things so seriously, the real battle is out there!
+      Enjoy your adventure!
+
+      
+
+      May your trip be epic!
+
+      
+
+      
+
+      (Any
+      resemblance to the video game The Elder Scrolls V: Skyrim is purely coincidental,
+      please Bethesda don''t sue me)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271737613520896
+    m_Localized: Accept
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

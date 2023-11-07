@@ -54,6 +54,36 @@ MonoBehaviour:
     m_Localized: Brillo
     m_Metadata:
       m_Items: []
+  - m_Id: 270306902872064
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270941337489408
+    m_Localized: "\xA1Bienvenido a The Ashen Knight, donde caballeros y dragones
+      se encuentran! Antes de aventurarte en nuestra tierra medieval, aqu\xED tienes
+      algunas reglas:\r\n\r\nReglas del Reino:\r\n\r\nGasta tu oro sabiamente \xA1la
+      corona no cubre tus deudas!\r\n\r\nModifica el juego como quieras, pero no
+      te pongas una t\xFAnica de mago principiante si vas a enfrentarte a un Gato
+      Sable con tu hacha, s\xE9 inteligente.\r\n\r\nComunicaci\xF3n en la Taberna:\r\n\r\nDuelos
+      verbales est\xE1n permitidos. Las disputas con dagas de hierro forjadas en
+      La Forja del Cielo, tambi\xE9n. Si eres miembro de Los Caballeros, tienes terminantemente
+      prohibido salir a tomar aguamiel a altas horas de la noche, sobretodo los d\xEDas
+      de luna llena.\n\nNo compartas secretos, a menos que desees recibir un mensaje
+      de la Hermandad Oscura.\r\n\r\nDerechos de Armas y Escudos:\r\n\r\nTodos los
+      aventureros pueden portar armas y escudos, siempre que sean mayores de edad
+      y no hayan sido heridos en la rodilla por una flecha.\n\nJurisdicci\xF3n del
+      Castillo:\r\n\r\nEn caso de disputas, el Rey Ulfric Capa de la Tormenta decidir\xE1.
+      Su palabra es ley y est\xE1 respaldada por los Siete Divinos.\n\n\nThe Ashen
+      Knight es solo un juego medieval. No te tomes las cosas tan en serio, \xA1la
+      verdadera batalla est\xE1 all\xE1 afuera! \xA1Disfruta tu aventura!\r\n\n\xA1Que
+      tu viaje sea \xE9pico!\n\n\n(Cualquier parecido con el videojuego The Elder
+      Scrolls V: Skyrim, es pura coincidencia, porfa Bethesda no me denuncies)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 271737613520896
+    m_Localized: Aceptar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
