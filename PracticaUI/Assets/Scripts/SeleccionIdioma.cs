@@ -9,21 +9,24 @@ public class SeleccionIdioma : MonoBehaviour
 {
     public Button left;
     public Button right;
-    public int numeroIdioma = 4;
-    
-   
+    int idiomaActual = 0;
+    List<Locale> listaIdiomas;
+    bool izq;
+
+
+
     void Start()
     {
-        List<Locale> listaIdiomas = LocalizationSettings.AvailableLocales.Locales;
+        listaIdiomas = LocalizationSettings.AvailableLocales.Locales;
     }
 
     
-    void Update()
+    public void CambiarIdiomaIzquierda()
+    {  
+            LocalizationSettings.SelectedLocale = listaIdiomas[idiomaActual--];  
+    }
+    public void CambiarIdiomaDerecha()
     {
-        for (int i = 0; i < numeroIdioma; i++)
-        {
-            
-        }
-       
+        LocalizationSettings.SelectedLocale = listaIdiomas[idiomaActual++];
     }
 }

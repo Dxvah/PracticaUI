@@ -18,11 +18,12 @@ public class Aceptar : MonoBehaviour
         if (activado == true)
         {
             MostrarCanvasPrincipal();
+            canvasIdioma.gameObject.SetActive(false);
 
         }
         else
         {
-            canvasIdioma.gameObject.SetActive(false);
+            canvasIdioma.gameObject.SetActive(true);
 
         }
     }
