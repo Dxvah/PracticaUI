@@ -22,11 +22,13 @@ public class SeleccionIdioma : MonoBehaviour
 
     
     public void CambiarIdiomaIzquierda()
-    {  
-            LocalizationSettings.SelectedLocale = listaIdiomas[idiomaActual--];  
+    {       
+            idiomaActual = (idiomaActual - 1 + listaIdiomas.Count) % listaIdiomas.Count;
+            LocalizationSettings.SelectedLocale = listaIdiomas[idiomaActual];  
     }
     public void CambiarIdiomaDerecha()
     {
+        idiomaActual = (idiomaActual + 1) % listaIdiomas.Count;
         LocalizationSettings.SelectedLocale = listaIdiomas[idiomaActual++];
     }
 }
